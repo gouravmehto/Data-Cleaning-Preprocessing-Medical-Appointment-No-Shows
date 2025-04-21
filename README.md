@@ -16,7 +16,7 @@ Objective: To clean and prepare a raw dataset by removing nulls, duplicates, and
 ### 4. 🔤 Standardized Text Values
 
 - - **Neighbourhood**: Used =PROPER() to convert to Proper Case .
-- **Gender**: Replaced "f" with "Female" and `"m"` with "Male"
+- **Gender**: Replaced "f" with "Female" and "m" with "Male"
 
 ### 5. 📅 Converted Date Formats
 - Reformatted `ScheduledDay` and `AppointmentDay` columns to `DD-MM-YYYY` using:
@@ -25,7 +25,7 @@ Objective: To clean and prepare a raw dataset by removing nulls, duplicates, and
 ### 6. ✏️ Renamed Column Headers
 - Cleaned all column names for consistency:
   - Replaced spaces with underscores
-  - Example: `ScheduledDay` → `Scheduled_Day`, `No-show` → `No_Show`
+  - Example: ScheduledDay → Scheduled_Day, No-show → No_Show
 
 ### 7. 🔢 Checked & Fixed Data Types
 - Ensured Age is numeric.
